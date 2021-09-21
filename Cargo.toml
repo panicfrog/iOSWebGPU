@@ -1,0 +1,15 @@
+[package]
+resolver="2"
+name = "libgpusource"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "libgpusource"
+crate-type = ["staticlib"]
+
+[dependencies]
+pollster = "0.2.4"
+wgpu = "0.10.1"
+winit = "0.25.0"
